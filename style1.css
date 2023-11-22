@@ -1,0 +1,37 @@
+.navbar {
+    background-color: #333;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body 
+{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.row 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin: 0;
+}
+
+.carousel-inner 
+{
+    width: 700px;
+    height: auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+  
