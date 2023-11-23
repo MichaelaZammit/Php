@@ -6,6 +6,7 @@
     <title>Colums</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
   </head>
 <body>
 
@@ -56,41 +57,32 @@
 
       <br>
 
-      <div class="row">
-        <div class="card" style="width: 18rem;">
-          <img src="Ornament.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">20 euro</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="Ornament.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">20 euro</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="Ornament.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">20 euro</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="Ornament.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">20 euro</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-        </div>
-        </div>
+      
+<body>
+    <div class="container">
+
+        <form id="signInForm">
+            <label for="signInUsername">Username:</label>
+            <input type="text" id="signInUsername" name="signInUsername" required>
+
+            <label for="signInPassword">Password:</label>
+            <input type="password" id="signInPassword" name="signInPassword" required>
+
+            <button type="submit">Sign In</button>
+        </form>
+
+        <hr>
+
+        <form id="logInForm">
+            <label for="logInUsername">Username:</label>
+            <input type="text" id="logInUsername" name="logInUsername" required>
+
+            <label for="logInPassword">Password:</label>
+            <input type="password" id="logInPassword" name="logInPassword" required>
+
+            <button type="submit">Log In</button>
+        </form>
+    </div>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
